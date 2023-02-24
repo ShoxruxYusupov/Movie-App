@@ -1,0 +1,25 @@
+.search{
+    padding: 3% 0;
+}
+
+.search .input {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search input{
+    border-radius: 20px;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+.search select{
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 7px 10px;
+    font-size: 1.2rem;
+}

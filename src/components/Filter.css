@@ -1,0 +1,30 @@
+.filter-terr ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-terr ul .genreLI {
+  padding: 8px 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 5px;
+  color: #032541;
+  transition: 0.2s;
+}
+
+.filter-terr ul .genreLI:hover {
+  background-color: #032541;
+  color: #fff;
+}
+.filter-terr h3 {
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+.is_selected {
+  background-color: #032541;
+  color: #fff !important;
+}

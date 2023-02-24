@@ -1,0 +1,29 @@
+.swiper{
+    min-height: 30vh;
+    padding: 20px;
+    background: no-repeat url('./../images/rB.svg');
+    background-position: 115% 115%;
+}
+.swiper-scrollbar{
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+}
+.swiper-scrollbar-drag{
+    height: 7px;
+}
+.swiper-scrollbar-drag:nth-child(1){
+    display: none;
+}
+.film_swipe img{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #fff;
+}
+
+.film_swipe{
+    height: 350px;
+}
+
+.film_swipe .rate{
+    top: 62%;
+}

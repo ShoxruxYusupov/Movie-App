@@ -1,0 +1,46 @@
+header{
+    padding: 1% 0;
+    background-color: #032541;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo{
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.header .logo a {
+    border-bottom: none;
+    color: #fff;
+}
+
+.nav > *{
+    margin: 0 30px;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.active{
+    border-bottom: 3px solid #fff;
+    color: rgb(149, 2, 255);
+}
+
+/* footer */
+footer{
+    padding: 5% 0;
+    width: 100%;
+    background-color: #032541;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+footer h3{
+    padding-bottom: 20px;
+}
+footer p{
+    text-align: center;
+}
